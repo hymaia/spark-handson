@@ -27,7 +27,7 @@ output :
 
 Les transformations Spark sont déjà codés. Il ne reste plus qu'à les utiliser :
 
-1. Lire le fichier `src/resources/exo1/data.txt`
+1. Lire le fichier `src/resources/exo1/data.csv`
 2. Appliquer la fonction `wordcount` à notre dataframe avec le bon nom de colonne
 3. On veut écrire le résultat dans `data/exo1/output` au format parquet
 4. La donnée devra être partitionnée par "count"
