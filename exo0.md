@@ -1,14 +1,31 @@
 # Installer Spark
 
+## Prérequis
+
+### Windows
+
+Installer WSL et Ubuntu.
+
+Pour travailler dans de bonnes conditions je recommande VScode avec le plugin **Visual Studio Code Remote**.
+
+### Pour tout le monde
+
+Installer poetry en suivant la [documentation du site officiel](https://python-poetry.org/docs/#installation)
+
+Pour les mac M1 ou M2, il suffit de lancer :
+```bash
+brew install poetry
+```
+
 ## Les dépendances
 
-Pour installer les dépendances Spark du projet, lancez la commande :
+Pour installer les dépendances du projet, lancez la commande :
 
 ```bash
 poetry install
 ```
 
-Si besoin, vous pouvez changer la version de Python définie actuellement à `3.8`.
+Si besoin, vous pouvez changer la version de Python définie actuellement à `3.10`.
 
 ## Spark
 
@@ -21,7 +38,7 @@ brew install apache-spark
 ### Ubuntu
 
 1. Ouvrez la page de [téléchargement de Spark](https://spark.apache.org/downloads.html) et suivez les instructions.
-2. Dézippez et déplacez le dossier dans `/opt/spark`
+2. Dézippez et déplacez le contenu du dossier dans `/opt/spark`
 3. Créez les variables d'environnements suivantes :
 
 ```bash
