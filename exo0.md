@@ -6,7 +6,7 @@
 
 Installer WSL et Ubuntu.
 
-Pour travailler dans de bonnes conditions je recommande VScode avec le plugin **Visual Studio Code Remote**.
+Pour travailler dans de bonnes conditions je recommande VScode avec le plugin **Remote Development**.
 
 ### Pour tout le monde
 
