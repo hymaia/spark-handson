@@ -13,7 +13,7 @@ Pour travailler dans de bonnes conditions je recommande VScode avec le plugin **
 Installer poetry en suivant la [documentation du site officiel](https://python-poetry.org/docs/#installation)
 
 Pour les mac M1 ou M2, il suffit de lancer :
-```bash
+```shell
 brew install poetry
 ```
 
@@ -21,7 +21,7 @@ brew install poetry
 
 Pour installer les dépendances du projet, lancez la commande :
 
-```bash
+```shell
 poetry install
 ```
 
@@ -31,7 +31,7 @@ Si besoin, vous pouvez changer la version de Python définie actuellement à `3.
 
 ### MacOS
 
-```bash
+```shell
 brew install apache-spark
 ```
 
@@ -41,7 +41,7 @@ brew install apache-spark
 2. Dézippez et déplacez le contenu du dossier dans `/opt/spark`
 3. Créez les variables d'environnements suivantes :
 
-```bash
+```shell
 export PYSPARK_PYTHON=/usr/bin/python3
 export SPARK_HOME=/opt/spark
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.9-src.zip
@@ -51,7 +51,7 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.9-src.zip
 
 Pour vérifier que l'installation est bonne, on lance les tests unitaires de l'exercice 0 :
 
-```bash
+```shell
 poetry run pytest
 ```
 

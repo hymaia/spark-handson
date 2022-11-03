@@ -3,3 +3,8 @@
 data/
 __pycache__/
 .DS_Store
+out
+dist
+.pytest_cache
+.terraform*
+terraform.*

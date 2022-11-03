@@ -66,7 +66,7 @@ def addCategoryName(col):
 Il ne reste plus qu'à utiliser notre UDF comme précédemment.
 
 Pour exécuter votre job Spark, lancez :
-```bash
+```shell
 poetry run scala_udf
 ```
 
@@ -116,4 +116,4 @@ id, date, category, price, category_name, total_price_per_category_per_day_last_
 0, 2019-02-18, 4, 25.0, food, 57.0
 ```
 
-[Précédent](exo3.md) <-
+[Précédent](exo3.md) <- -> [Suivant](exo5.md)

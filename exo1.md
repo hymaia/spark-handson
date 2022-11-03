@@ -33,7 +33,7 @@ Les transformations Spark sont déjà codés. Il ne reste plus qu'à les utilise
 4. La donnée devra être partitionnée par "count"
 5. Pour exécuter le code :
 
-```bash
+```shell
 poetry run wordcount
 ```
 
