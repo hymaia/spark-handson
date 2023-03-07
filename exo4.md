@@ -41,7 +41,7 @@ id, date, category, price, category_name
 
 ### UDF Scala
 
-Nous allons utiliser le fichier `scr.fr.hymaia.exo4.scala_udf.py`
+Nous allons utiliser le fichier `src.fr.hymaia.exo4.scala_udf.py`
 
 Un jar est présent dans `resources/exo4`. Il contient une UDF Scala. Pour l'utiliser, ajoutez une configuration à votre SparkSession :
 
